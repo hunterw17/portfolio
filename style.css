@@ -2,34 +2,32 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    background-color: white; 
+    background-color: #24252a; 
+    color: #edf0f1;
 }
 
 body {
-    font-family: Helvetica, Verdana, Arial;
+    font-family: Arial, Helvetica, sans-serif;
     width: 960px;
     margin: auto;
+    display: flexbox;
 }
 
 h1 {
-    text-align: center;
-}
-
-#nav {
-    text-align: center;
-
+    margin-right: auto;
 }
 
 li, a, button{
-    display: inline;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: 500;
     font-size: 16px;
-    color: black;
+    color: #edf0f1;
+    text-decoration: none;
 }
 
 header {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-end;
     align-items: center;
     padding: 30px 10%;
 } 
@@ -48,7 +46,7 @@ header {
 }
 
 .nav_links li a:hover {
-    color: teal;
+    color: #0088a9;
 }
 
 button {
@@ -63,3 +61,5 @@ button {
 button:hover {
     background-color: rgba(0, 136,169, 0.8);
 }
+
+
