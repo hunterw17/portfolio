@@ -62,7 +62,7 @@ button:hover {
     background-color: rgba(0, 136,169, 0.8);
 }
 
-.about_bio_header, .background_header {
+.about_bio_header, .background_header, .education_header {
     text-align: center;
 }
 
@@ -88,7 +88,7 @@ button:hover {
     margin: 10px;
 }
 
-.background, .education {
+.background {
     margin-top: inherit;
     display: block;
 }
@@ -97,4 +97,31 @@ button:hover {
     content: "";
     display: block;
     clear: both;
+}
+
+.education {
+    margin-top: inherit;
+    display: block; 
+}
+
+.education1:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.education2:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.education1_left, .education2_left {
+    float: left;
+    width: 50%;
+}
+
+.education1_right, .education2_right {
+    float: left;
+    width: 50%;
 }
