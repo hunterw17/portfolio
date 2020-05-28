@@ -62,4 +62,39 @@ button:hover {
     background-color: rgba(0, 136,169, 0.8);
 }
 
+.about_bio_header, .background_header {
+    text-align: center;
+}
 
+.about_bio_column_left {
+    float: left;
+    width: 300px;
+}
+
+.about_bio_column_right {
+    float: left;
+    width: 620px;
+}
+
+.about_bio_row:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.background_column1, .background_column2, .background_column3 {
+    width: 300px;
+    float: left;
+    margin: 10px;
+}
+
+.background, .education {
+    margin-top: inherit;
+    display: block;
+}
+
+.background:after {
+    content: "";
+    display: block;
+    clear: both;
+}
