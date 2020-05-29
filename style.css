@@ -3,7 +3,11 @@
     margin: 0;
     padding: 0;
     background-color: #24252a; 
-    color: #edf0f1;
+    color: #edf0f1;    
+    display: flexbox;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
 }
 
 body {
@@ -11,6 +15,19 @@ body {
     width: 960px;
     margin: auto;
     display: flexbox;
+    flex-wrap: wrap;
+    align-items: center;
+    align-content: center;
+}
+
+.background, .bio, .education, .certificates {
+    display: flexbox;
+    justify-content: center;
+}
+
+.bio, .about_bio_header, .about_bio_row, .about_bio_column_left, .about_bio_column_right {
+    background-color: black;
+    width: 100%;
 }
 
 h1 {
@@ -25,23 +42,23 @@ li, a, button{
     text-decoration: none;
 }
 
-header {
+header, footer {
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
     padding: 30px 10%;
 } 
 
-.nav_links {
+.nav_links, .footer_links {
     list-style: none;
 }
 
-.nav_links li {
+.nav_links li, .footer_links li {
     display: inline-block;
     padding: 0px 20px;
 }
 
-.nav_links li a {
+.nav_links li a, .footer_links li a {
     transition: all 0.3s ease 0s;
 }
 
@@ -62,7 +79,7 @@ button:hover {
     background-color: rgba(0, 136,169, 0.8);
 }
 
-.about_bio_header, .background_header, .education_header {
+.about_bio_header, .background_header, .education_header, .certificate_header {
     text-align: center;
 }
 
@@ -82,15 +99,14 @@ button:hover {
     clear: both;
 }
 
+.abouttext {
+    background-color:black;
+}
+
 .background_column1, .background_column2, .background_column3 {
     width: 300px;
     float: left;
     margin: 10px;
-}
-
-.background {
-    margin-top: inherit;
-    display: block;
 }
 
 .background:after {
@@ -125,3 +141,40 @@ button:hover {
     float: left;
     width: 50%;
 }
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    align-items: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-instagram {
+    background: #125688;
+    color: white;
+    text-align: center;
+  }
+
+  .fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+  .fa-github {
+    background:purple;
+    color: white;
+    text-align: center;
+  }
+  
