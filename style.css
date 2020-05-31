@@ -46,10 +46,6 @@ hr {
     padding: 10px 10px 10px 10px;
 }
 
-.about_bio_pic {
-    border-radius: 3pc;
-}
-
 .background {
     padding: 10px 0px 10px 0px;
 }
@@ -122,7 +118,8 @@ button:hover {
     background-color: rgb(219, 0, 128);
 }
 
-.about_bio_header, .background_header, .education_header, .certificate_header {
+.about_bio_header, .background_header, .education_header, 
+.certificate_header, .expheader, .skillsheader {
     text-align: center;
 }
 
@@ -219,3 +216,24 @@ button:hover {
     text-align: center;
   }
   
+.expheader, .ng, .vw {
+    padding: 10px;
+}
+
+.skills, .skillsheader, .skillsrow, .skills_left, 
+.skills_right, .industrylist, .skillsetslist, .skillstext {
+    background-color: rgb(107, 107, 107);
+}
+
+.skillsrow {
+    column-count: 2;
+    column-span: all;
+    text-align: center;
+    padding: 10px;
+}
+
+.industrylist, .skillsetslist {
+    list-style: none;
+}
+
+
