@@ -236,4 +236,10 @@ button:hover {
     list-style: none;
 }
 
+.projects, .ibm, .portfolio {
+    padding: 10px;
+}
 
+.projectsheader {
+    text-align: center;
+}
